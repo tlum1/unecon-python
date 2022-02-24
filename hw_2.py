@@ -17,11 +17,7 @@ def task_5():
 # task_5()
 def task_6(text):
     print("Количество строк - ", len(text.split("\n")))
-
-    words = []
-    for i in text.split("\n"):
-        words += i.split()
-    print(f"Количество слов - ", len(words))
+    print(f"Количество слов - ", len(text))
 
 
 text = """В тот год осенняя погода
